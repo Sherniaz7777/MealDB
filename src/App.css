@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.Container{
+    width: 80%;
+    margin:  auto;
+    
+}
+.Detail-ingr{
+    
+    padding: 50px 0px  50px;
+    background: #2D2013;
+}
+.Name-ingrs{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
+}
+.ingredients{
+    display: flex;
+    width: 60%;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ingredients p{
+    text-align: center;
+    font-size: 16px;
+    color: #D57D1F;
+    margin-top: 10px;
+}
+.ingredients img{
+    max-width: 100%;
+}
+.ingr-img img{
+    max-width: 70%;
+
+}
+#strInstructions{
+    padding: 30px 0px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.Detail-ingr h1{
+    padding: 40px 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.Detail-ingr h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    font-size: 22px;
+}
+.card-meal{
+    padding: 30px 0px 40px;
+    background: #2D2013;
+}

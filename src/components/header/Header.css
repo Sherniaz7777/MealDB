@@ -1,0 +1,28 @@
+.main{
+    background: #23180D;
+    padding: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Home-search {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.Home-search button{
+    padding: 5px 12px;
+    border-radius: 2px;
+    border: none;
+    background: #C52D2F;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.Home-search input{
+    background: #FFFFFF;
+    padding: 5px 2px;
+    width: 120px;
+    height: 35;
+}
